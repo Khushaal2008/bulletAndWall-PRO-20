@@ -1,8 +1,8 @@
 var bullet,bullet2,bullet3,bullet4,wall,wall2,wall3,wall4,speed,weight,thickness;
 
 function setup() {
-  createCanvas(1700,700);
-  speed=random(55, 90);
+  createCanvas(1200,700);
+  speed=random(55, 65);
   weight=random(700,1500);
   thickness = random(22,83)
   bullet = createSprite(10,50, thickness, 4);
@@ -10,10 +10,10 @@ function setup() {
   bullet3 = createSprite(10,430, thickness, 4);
   bullet4 = createSprite(10,650, thickness, 4);
   
-  wall = createSprite(1650,50,50,200);
-  wall2 = createSprite(1650,270,50,140);
-  wall3 = createSprite(1650,430,50,140);
-  wall4 = createSprite(1650,650,50,140);
+  wall = createSprite(1200,50,50,200);
+  wall2 = createSprite(1200,270,50,140);
+  wall3 = createSprite(1200,430,50,140);
+  wall4 = createSprite(1200,650,50,140);
   //wall.debug = true;
   bullet.velocityX = speed;
   bullet2.velocityX = speed;
